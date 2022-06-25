@@ -61,8 +61,12 @@ body {
   background-color: transparent;
 }
 
-.grid-2-col {
+.grid-3-col {
   grid-template-rows: 1fr 2fr;
+}
+
+.grid-2-col {
+  grid-template-rows: 1fr 1fr;
 }
 
 /* ************************************ */
@@ -234,10 +238,10 @@ body {
 /* ************************************ */
 
 #product {
-  padding: 4.8rem 0;
+  padding: 4.8rem 0 9.8rem 0;
 }
 
-.container {
+#product .container {
   text-align: center;
   display: flex;
   gap: 4.8rem;
@@ -264,10 +268,6 @@ body {
   gap: 4.8rem;
 }
 
-.img-content {
-  height: 200px;
-}
-
 .text-contents {
   padding: 0 2.4rem;
   display: flex;
@@ -287,4 +287,56 @@ body {
   color: var(--Very-dark-grayish-blue-body-copy);
   font-size: 1.8rem;
   line-height: 1.5;
+}
+
+/* ************************************ */
+/************ART************** */
+/* ************************************ */
+
+#art {
+  background-color: var(--Very-dark-gray-blue);
+  border-top-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  background-image: url("/images/bg-pattern-circles.svg");
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 12rem 0;
+}
+
+#art .img-content {
+  position: relative;
+}
+
+#art .img-content img {
+  position: absolute;
+  top: -50%;
+}
+
+#art .text-content {
+  padding: 0 2.4rem;
+  text-align: center;
+}
+
+#art .text-content-heading {
+  color: var(--White-text);
+}
+
+#art .product-text {
+  color: var(--White-text);
+}
+
+/* ************************************ */
+/************OPENSOURCE************** */
+/* ************************************ */
+#opensource {
+  padding: 4.8rem 0;
+}
+
+#opensource .grid {
+  text-align: center;
+}
+
+#opensource .product-text {
+  font-size: 1.6rem;
 }
