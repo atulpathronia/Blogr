@@ -27,6 +27,7 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 *:focus {
@@ -52,6 +53,7 @@ h6 {
 
 body {
   font-family: "Overpass", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .btn {
