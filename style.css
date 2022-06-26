@@ -126,6 +126,10 @@ body {
   font-weight: 900;
 }
 
+.arrow {
+  transform: rotate(180deg);
+}
+
 .buttons {
   display: flex;
   flex-direction: column;

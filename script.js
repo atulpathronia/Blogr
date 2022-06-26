@@ -19,6 +19,7 @@ hamburgBtn.addEventListener("click", function () {
 
 links.forEach((link) => {
   link.addEventListener("click", function (e) {
+    e.target.firstElementChild.classList.toggle("arrow");
     e.target.nextElementSibling.classList.toggle("hidden");
   });
 });
