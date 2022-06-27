@@ -1,0 +1,84 @@
+@media (min-width: 31.25em) {
+  html {
+    font-size: 68.75%;
+  }
+  .grid-3-col {
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media (min-width: 48em) {
+  html {
+    font-size: 75%;
+  }
+
+  .text-contents {
+    padding: 0 9.6rem;
+  }
+  #art .img-content {
+    opacity: 0.05;
+  }
+}
+
+@media (min-width: 56.25em) {
+  .grid-3-row {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: none;
+  }
+}
+
+@media (min-width: 64em) {
+  .grid-3-col {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+  }
+
+  .outsideBtn {
+    display: block;
+  }
+
+  .text-contents {
+    padding: 0 1rem;
+    text-align: left;
+    gap: 3.2rem;
+  }
+
+  .text-content-heading {
+    padding-left: 0;
+  }
+
+  .hamburgBtn {
+    display: none;
+  }
+
+  .buttons.inside {
+    display: none;
+  }
+
+  .main-nav-list {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: fill;
+    display: contents;
+    flex-direction: row;
+  }
+
+  .main-nav-link {
+    color: var(--White-text);
+  }
+
+  .outsideBtn .login {
+    color: var(--White-text);
+  }
+
+  .dropdown-nav-list {
+    position: absolute;
+    padding: 1rem;
+    background-color: var(--White-text);
+  }
+
+  .dropdown-nav-link {
+    color: navyblue;
+    font-size: 1.2rem;
+  }
+} ;
